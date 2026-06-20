@@ -230,3 +230,55 @@ h1 {
   font-weight: bold;
   border-bottom: 2px solid #1F1B16;
 }
+/* Áp dụng riêng cho màn hình nhỏ hơn 600px (điện thoại) */
+@media (max-width: 600px) {
+  h1 {
+    font-size: 26px;
+  }
+
+  .don-hang-ten {
+    font-size: 16px;
+  }
+
+  .don-hang-phu {
+    font-size: 14px;
+  }
+
+  .the-mau h3 {
+    font-size: 17px;
+  }
+
+  .the-mau p {
+    font-size: 14px;
+  }
+
+  .the-mau button,
+  .form-dat-don button {
+    font-size: 16px;
+    padding: 12px;
+  }
+
+  .form-dat-don label {
+    font-size: 15px;
+  }
+
+  .form-dat-don input,
+  .form-dat-don textarea {
+    font-size: 16px;
+    padding: 12px;
+  }
+
+  .nut-tab {
+    font-size: 16px;
+    padding: 12px 14px;
+  }
+
+  .nut-nam {
+    font-size: 15px;
+    padding: 8px 16px;
+  }
+
+  .ten-cong-doan {
+    font-size: 13px;
+  }
+}
