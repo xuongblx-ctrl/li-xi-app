@@ -1,8 +1,12 @@
+html, body {
+  background-color: #FBF7EE;
+  margin: 0;
+  min-height: 100%;
+}
+
 body {
   font-family: Arial, sans-serif;
-  background-color: #FBF7EE;
   color: #1F1B16;
-  margin: 0;
 }
 
 #root {
