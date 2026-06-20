@@ -14,6 +14,8 @@ body {
   margin: 0 auto;
   padding: 16px;
   box-sizing: border-box;
+  min-height: 100vh;
+  background-color: #FBF7EE;
 }
 
 body {
